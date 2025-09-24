@@ -11,3 +11,37 @@ body{
 h1,h2,h3,h4,h5,h6{
   font-weight: 700;
 }
+
+.container{
+  width: 1440px;
+  margin-inline: auto;
+  height: 20px;
+}
+
+/* Header Start */
+.head-section{
+  margin-top: 184px;
+  width: 874px;
+  height: 417px;
+}
+
+header h4{
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 37px;
+  letter-spacing: -0.35px;
+  margin-bottom: 12px;
+}
+
+header h1{
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 70px;
+  letter-spacing: -0.7px;
+  margin-bottom: 40px;
+}
+
+header img {
+  margin-right: 32px;
+}
+
