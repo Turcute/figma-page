@@ -13,9 +13,8 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .container{
-  width: 1440px;
-  margin-inline: auto;
-  height: 20px;
+  max-width: 1100px;
+  margin-inline: auto;  
 }
 
 /* Header Start */
@@ -23,6 +22,7 @@ h1,h2,h3,h4,h5,h6{
   margin-top: 184px;
   width: 874px;
   height: 417px;
+  margin-bottom: 222px;
 }
 
 header h4{
@@ -44,4 +44,147 @@ header h1{
 header img {
   margin-right: 32px;
 }
+ /* Header End */
 
+
+ /* KFC Section Start */
+ .kfc-section h3{
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 37px;
+  letter-spacing: -0.35px;
+  margin-bottom: 40px;
+ }
+
+ .border{
+  border: 1px solid;
+  border-color: #C4C4C4;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 80px;
+ }
+
+ .kfc-img{
+  border-radius: 12px;
+  margin-bottom: 24px;
+ }
+
+ .kfc-section h2{
+  font-size: 30px;
+  line-height: 37px;
+  letter-spacing: -0.35px;
+  margin-bottom: 12px;
+ }
+
+ .kfc-section p{
+  width: 669px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0px;
+  margin-bottom: 64px;
+ }
+
+ .kfc-section a{
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0px;
+ }
+
+.icon{
+  vertical-align: middle;
+}
+/* KFC Section End */
+
+/* Humans Section Start */
+ .human-border{
+  border: 1px solid;
+  border-color: #C4C4C4;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 80px;
+ }
+
+ .humans-img{
+  width: 1062px;
+  border-radius: 12px;
+  margin-bottom: 24px;
+ }
+
+ .humans-section h2{
+  font-size: 30px;
+  line-height: 37px;
+  letter-spacing: -0.35px;
+  margin-bottom: 12px;
+ }
+
+ .humans-section p{
+  width: 669px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0px;
+  margin-bottom: 64px;
+ }
+
+ .humans-section a{
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0px;
+ }
+
+.human-icon{
+  vertical-align: middle;
+}
+/* Humans Section End */
+
+/* Coffe Section Start */
+ .coffe-border{
+  border: 1px solid;
+  border-color: #C4C4C4;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 80px;
+ }
+
+ .coffe-img{
+  width: 1062px;
+  border-radius: 12px;
+  margin-bottom: 24px;
+ }
+
+ .coffe-section h2{
+  font-size: 30px;
+  line-height: 37px;
+  letter-spacing: -0.35px;
+  margin-bottom: 12px;
+ }
+
+ .coffe-section p{
+  width: 669px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0px;
+  margin-bottom: 64px;
+ }
+
+ .coffe-section a{
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0px;
+ }
+
+.coffe-icon{
+  vertical-align: middle;
+}
+/* Coffe Section End */
