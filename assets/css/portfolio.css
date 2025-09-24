@@ -1,31 +1,41 @@
-*{
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
-body{
-  font-family: "Montserrat";
+body {
+  font-family: "Montserrat" ,sans-serif;
 }
 
-h1,h2,h3,h4,h5,h6{
+header{
+  display: flex;
+  justify-content: end;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-weight: 700;
 }
 
-.container{
+.container {
   max-width: 1100px;
-  margin-inline: auto;  
+  margin-inline: auto;
 }
 
-/* Header Start */
-.head-section{
+/* Nav Start */
+.nav-section {
   margin-top: 184px;
   width: 874px;
   height: 417px;
   margin-bottom: 222px;
 }
 
-header h4{
+nav h4 {
   font-weight: 400;
   font-size: 30px;
   line-height: 37px;
@@ -33,7 +43,7 @@ header h4{
   margin-bottom: 12px;
 }
 
-header h1{
+nav h1 {
   font-weight: 600;
   font-size: 60px;
   line-height: 70px;
@@ -41,150 +51,186 @@ header h1{
   margin-bottom: 40px;
 }
 
-header img {
+nav img {
   margin-right: 32px;
 }
- /* Header End */
+
+/* Nav End */
 
 
- /* KFC Section Start */
- .kfc-section h3{
+/* KFC Section Start */
+.kfc-section h3 {
   font-weight: 600;
   font-size: 30px;
   line-height: 37px;
   letter-spacing: -0.35px;
   margin-bottom: 40px;
- }
+}
 
- .border{
+.border {
   border: 1px solid;
   border-color: #C4C4C4;
   border-radius: 12px;
   padding: 20px;
   margin-bottom: 80px;
- }
+}
 
- .kfc-img{
+.kfc-img {
   border-radius: 12px;
   margin-bottom: 24px;
- }
+}
 
- .kfc-section h2{
+.kfc-section h2 {
   font-size: 30px;
   line-height: 37px;
   letter-spacing: -0.35px;
   margin-bottom: 12px;
- }
+}
 
- .kfc-section p{
+.kfc-section p {
   width: 669px;
   font-weight: 400;
   font-size: 16px;
   line-height: 28px;
   letter-spacing: 0px;
   margin-bottom: 64px;
- }
+}
 
- .kfc-section a{
+.kfc-section a {
   text-decoration: none;
   color: black;
   font-weight: 600;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0px;
- }
+}
 
-.icon{
+.icon {
   vertical-align: middle;
 }
+
 /* KFC Section End */
 
 /* Humans Section Start */
- .human-border{
+.human-border {
   border: 1px solid;
   border-color: #C4C4C4;
   border-radius: 12px;
   padding: 20px;
   margin-bottom: 80px;
- }
+}
 
- .humans-img{
+.humans-img {
   width: 1062px;
   border-radius: 12px;
   margin-bottom: 24px;
- }
+}
 
- .humans-section h2{
+.humans-section h2 {
   font-size: 30px;
   line-height: 37px;
   letter-spacing: -0.35px;
   margin-bottom: 12px;
- }
+}
 
- .humans-section p{
+.humans-section p {
   width: 669px;
   font-weight: 400;
   font-size: 16px;
   line-height: 28px;
   letter-spacing: 0px;
   margin-bottom: 64px;
- }
+}
 
- .humans-section a{
+.humans-section a {
   text-decoration: none;
   color: black;
   font-weight: 600;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0px;
- }
+}
 
-.human-icon{
+.human-icon {
   vertical-align: middle;
 }
+
 /* Humans Section End */
 
 /* Coffe Section Start */
- .coffe-border{
+.coffe-border {
   border: 1px solid;
   border-color: #C4C4C4;
   border-radius: 12px;
   padding: 20px;
-  margin-bottom: 80px;
- }
+  margin-bottom: 220px;
+}
 
- .coffe-img{
+.coffe-img {
   width: 1062px;
   border-radius: 12px;
   margin-bottom: 24px;
- }
+}
 
- .coffe-section h2{
+.coffe-section h2 {
   font-size: 30px;
   line-height: 37px;
   letter-spacing: -0.35px;
   margin-bottom: 12px;
- }
+}
 
- .coffe-section p{
+.coffe-section p {
   width: 669px;
   font-weight: 400;
   font-size: 16px;
   line-height: 28px;
   letter-spacing: 0px;
   margin-bottom: 64px;
- }
+}
 
- .coffe-section a{
+.coffe-section a {
   text-decoration: none;
   color: black;
   font-weight: 600;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0px;
- }
+}
 
-.coffe-icon{
+.coffe-icon {
   vertical-align: middle;
 }
+
 /* Coffe Section End */
+
+/* Article Start */
+article h5 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 16px;
+}
+
+article h2 {
+  width: 569px;
+  height: 240px;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: -0.4px;
+  margin-bottom: 235px;
+}
+
+/* Article End */
+
+/* Footer Start */
+footer p {
+  margin-bottom: 32px;
+  font-family: "Open Sans" , sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0px;
+}
+
+/* Footer End */
